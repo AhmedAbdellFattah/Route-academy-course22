@@ -1,0 +1,243 @@
+html{
+    background-image: url(../Images/netflix-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bottom{
+    width:100%;
+    height: 250px;
+    margin-top: 90px;
+    float: left;
+    background-color:rgba(0,0,0,.75);
+}
+
+.Langs{
+    margin-top: 30px;
+    margin-left: 230px;
+    float: left;
+}
+
+.Langs select{
+    border-radius: 5.5px;
+    width: 121.2px;
+    height: 48.1px;
+    text-align: center;
+    color:#737373 ;
+    background-color: black;
+}
+
+.cook{
+    margin-top: 15px;
+    margin-left: 230px;
+    float: left;
+}
+
+.cook a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.Inf{
+    margin-top: 15px;
+    margin-left: 105px;
+    float: left; 
+}
+
+.Inf a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.Faq{
+    float: left;
+}
+
+.Faq a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.HelpCenter{
+    margin-left: 200px;
+    float: left;
+}
+
+.CLR{
+    clear: both;
+}
+
+.HelpCenter a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.Terms{
+    margin-left: 200px;
+    float: left;
+}
+
+.Terms a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.Priv{
+    float: left;
+    margin-left: 200px;
+}
+
+.Priv a{
+    color:#737373;
+    text-decoration: none;
+}
+
+.fourlnks{
+    margin: 25px 0px 0px 230px;
+}
+
+.que{
+    margin: 25px 0px 0px 230px;
+}
+
+.que a{
+    color:#737373;
+    text-decoration: none;
+    text-align: left;
+}
+
+
+.prot{
+    margin-left: 0px;
+    margin-top: 0px;
+    float: left;
+}
+
+.prot a{
+    text-decoration: none;
+}
+
+.prot p{
+    color: grey;
+    text-align: left;
+    width: 320px;
+    margin-left: 85px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.new{
+    text-align: left;
+    float: left;
+    margin: 30px 50px 0px 85px;
+}
+
+.new a{
+    text-decoration: none;
+    color: white;
+}
+
+.new p{
+    color: grey;
+}
+
+.needhelp a{
+    color:#B3B3B3 ;
+    text-decoration: none;
+}
+
+.needhelp{
+    margin-top: 15px;
+}
+
+.remember label{
+    text-align: left;
+    float: left;
+    color:#B3B3B3 ;
+}
+
+.remember input{
+    width: 15px;
+    height: 15px;
+    padding-right: 40px;
+    float: left;
+}
+
+.remember{
+    float: left;
+    padding-right: 0px;
+    margin-left: 9px;
+    margin-right: 0px;
+    margin-top: 15px;
+    height: 20px;
+    
+}
+
+.centerdiv h2{
+    color: white;
+    text-align: left;
+    padding-top: 25px;
+    padding-left: 85px;
+    padding-bottom: 25px;
+}
+
+.centerdiv button{
+    border-color: #e50914;
+    border-radius: 5.5px;
+    background-color: #e50914;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 120px;
+    padding-right: 125px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.centerdiv input{
+    border: #333333;
+    border-radius: 5.5px;
+    background-color: #333333;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 115px;
+    margin-bottom: 25px;
+    margin-left: 80px;
+    float: center;
+    text-align: left;
+    display: block;
+}
+
+.centerdiv{
+    border-radius: 5.5px;
+    background-color: rgba(0,0,0,.75);
+    float: center center;
+    width: 445px;
+    height: 625px;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: 100px;
+    padding:16px 0px 25px ;
+}
+
+.backtrans{
+    min-height: 100%;
+    min-width: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.471);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.backtrans img{
+    margin-top: 10px;
+    margin-left: 38.0625px;
+    float: left;
+    width: 169px;
+    height: 75px;
+}

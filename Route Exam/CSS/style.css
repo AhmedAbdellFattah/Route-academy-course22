@@ -1,0 +1,258 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.homeContent{
+    text-align: center;
+}
+
+.homeContent h5{
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    font-weight: 200;
+    font-size: 5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.tesst{
+    font-size: 14px;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in;
+}
+
+.sub-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.42857143;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    color: #999;
+}
+
+.about-content p{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.hello{
+    background-image: url(../img/dots.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.herr{
+    transform: translate(50px,-25px);
+}
+
+.about-content h3{
+    font-weight: 800;
+    margin-bottom: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 1.1;
+}
+
+.serv{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.try{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #F7F7F7;
+    z-index: 9999999;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.list-unstyled a{
+    text-decoration: none;
+    color: #222;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#test li{
+    margin-right: 20px;
+}
+
+.hei{
+    font-weight: 900;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+}
+
+.imgLayer{
+    --offset: 10px;
+    left: var(--offset);
+    right: var(--offset);
+    top: 0;
+    bottom: calc(2*var(--offset)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-100%);
+    transition: 0.5s all;
+}
+
+.members:hover  .imgLayer{
+    transform: translateY(0);
+}
+
+#cur{
+    cursor: pointer;
+}
+
+.card1:hover .try{
+    color: whitesmoke;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background:black;
+}
+
+.myIcon:hover .tst1{
+    background: blue ;
+}
+
+.myIcon:hover .tst2{
+
+    background: #1C9BF0 ;
+}
+
+.myIcon:hover .tst3{
+    background: #0A66C2 ;
+}
+
+.myIcon:hover .tst4{
+
+    background: black ;
+}
+
+.myIcon:hover .tst5{
+
+    background: red ;
+}
+
+.bll{
+    transition: 0.4s all;
+}
+
+.bttn:hover .bll{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.carousel-indicators [data-bs-target]{
+    background-color: #222;
+    margin-right: 10px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.skur{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.skurt{
+    text-decoration: none;
+}
+
+.skurt_{
+    color: gray;
+}
+
+.skurtt{
+    font-weight: 800;
+    color: #343434;
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skort{
+    color: #343434;
+    width: 80px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    border-bottom: 2px solid #333;
+}
+
+.par{
+    line-height: 1.6;
+    margin: 0;
+    font-size: 18px;
+    color: #748182;
+}
+
+.tryyy{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #F7F7F7;
+    z-index: 9999999;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+
+.klm{
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.1;
+}
+
+.klmm:hover .tryyy{
+    color: whitesmoke;
+    background-color: black;
+}
+
+.fffff{
+    max-height: 160px;
+    max-width: 100%;
+}
+
+.butnn:hover .bsbbs{
+    color: black;
+    background-color: whitesmoke;
+}
+
+.testoo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
